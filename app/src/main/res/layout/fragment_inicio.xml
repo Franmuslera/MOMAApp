@@ -3,15 +3,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FragmentInicio">
+    tools:context=".view.FragmentInicio">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Hola Mundo"
-        android:textSize="30dp"
-        android:gravity="center"
-        android:layout_gravity="center_vertical"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Hola Mundo"
+            android:textSize="30dp"
+
+
+
+            />
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:id="@+id/recyclerview_paints"
+            ></android.support.v7.widget.RecyclerView>
+    </LinearLayout>
 
         />
     <TextView

@@ -1,4 +1,4 @@
-package com.example.digital.momapp;
+package com.example.digital.momapp.view;
 
 
 import android.content.Intent;
@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.digital.momapp.R;
 import com.facebook.login.LoginManager;
 import com.google.firebase.auth.FirebaseAuth;
 

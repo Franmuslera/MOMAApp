@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FragmentLogin">
+    tools:context=".view.FragmentLogin">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,59 +19,18 @@
             android:layout_marginBottom="20dp"
             />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_marginTop="30dp"
-
-            android:id="@+id/layoutBotones">
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Email"
-                android:id="@+id/edit_text_email"
-                />
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Contraseña"
-                android:layout_marginTop="20dp"
-                android:id="@+id/edit_text_contraseña"
-                android:inputType="textPassword"
-                />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:text="Registrar"
-                android:textStyle="bold"
-                android:textSize="20dp"
-                android:background="@color/transparente"
-                android:layout_marginTop="20dp"
-                android:id="@+id/butto_registrar"/>
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:text="Login"
-                android:textStyle="bold"
-                android:textSize="20dp"
-                android:background="@color/transparente"
-                android:id="@+id/button_login"/>
 
             <com.facebook.login.widget.LoginButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:layout_gravity="center_horizontal"
-                android:id="@+id/button_login_facebook"/>
+                android:id="@+id/button_login_facebook"
+                />
 
 
         </LinearLayout>
-    </LinearLayout>
+
 
 </RelativeLayout>
 
