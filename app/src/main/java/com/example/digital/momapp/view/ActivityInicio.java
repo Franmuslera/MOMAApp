@@ -8,8 +8,7 @@ import android.os.Bundle;
 import com.example.digital.momapp.R;
 
 public class ActivityInicio extends AppCompatActivity {
-
-    private static final String FRAGMENT_INICIO = "fragmentInicio";
+    private String FRAGMENT_INICIO= "FragmentInicio";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,9 +16,8 @@ public class ActivityInicio extends AppCompatActivity {
         setContentView(R.layout.activity_inicio);
 
         pegarFragment(new FragmentInicio(),FRAGMENT_INICIO);
-
-
     }
+
     private void pegarFragment(android.support.v4.app.Fragment fragment, String tag){
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();

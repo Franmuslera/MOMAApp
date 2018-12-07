@@ -5,13 +5,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.example.digital.momapp.R;
-import com.example.digital.momapp.view.ActivityInicio;
 import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
@@ -101,7 +101,8 @@ public class FragmentLogin extends Fragment {
 
     public void updateUI(FirebaseUser user) {
         if (user != null) {
-            Intent intent = new Intent(getView().getContext(), ActivityInicio.class);
+
+            Intent intent = new Intent(getView().getContext(),ActivityInicio.class);
             startActivity(intent);
             getActivity().finish();
         }

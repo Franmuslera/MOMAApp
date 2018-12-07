@@ -4,6 +4,7 @@
 
     android:layout_width="180dp"
     android:layout_height="180dp"
+
     >
     <RelativeLayout
         android:layout_width="match_parent"
@@ -12,6 +13,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:id="@+id/imageview_pintura"
         />
         <TextView
             android:layout_width="match_parent"
