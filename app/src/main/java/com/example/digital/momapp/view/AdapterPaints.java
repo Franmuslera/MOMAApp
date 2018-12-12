@@ -1,5 +1,6 @@
 package com.example.digital.momapp.view;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -19,9 +20,11 @@ import java.util.List;
 
 public class AdapterPaints extends RecyclerView.Adapter{
     private List<Paint> listaPinturas;
+    private ListenerAdapterItem listenerAdapterItem;
 
-    public AdapterPaints(){
-        this.listaPinturas= new ArrayList<>();
+    public AdapterPaints(ListenerAdapterItem listener,List<Paint> lista){
+        this.listenerAdapterItem = listener;
+        this.listaPinturas= lista;
     }
     @NonNull
     @Override
@@ -48,7 +51,7 @@ public class AdapterPaints extends RecyclerView.Adapter{
 
     public class ItemViewHolder extends RecyclerView.ViewHolder {
         private TextView nombrePintura;
-        private String imageUrl;
+        private FirebaseStorage firebaseStorage;
         private ImageView imageViewPaint;
 
 
@@ -56,19 +59,35 @@ public class AdapterPaints extends RecyclerView.Adapter{
             super(itemView);
             nombrePintura = itemView.findViewById(R.id.textview_nombre_pintura);
             imageViewPaint = itemView.findViewById(R.id.imageview_pintura);
+            firebaseStorage = FirebaseStorage.getInstance();
+
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Paint paint = listaPinturas.get(getAdapterPosition());
+                    listenerAdapterItem.pinturaSeleccionada(paint);
+                }
+            });
 
         }
         public void BindPaint(Paint paint){
             nombrePintura.setText(paint.getNombre());
-            imageUrl = (paint.getImagen());
-            FirebaseStorage storage = FirebaseStorage.getInstance();
-            StorageReference reference = storage.getReference();
-            reference = reference.child(imageUrl);
-            Glide.with(itemView.getContext()).load(reference).into(imageViewPaint);
+
+
+            Glide.with(itemView.getContext())
+                    .load(paint.getUrl_imagen())
+                    .into(imageViewPaint);
+
+
+
+
         }
     }
     public void setResult(List<Paint> pinturas){
         this.listaPinturas = pinturas;
         notifyDataSetChanged();
+    }
+    public interface ListenerAdapterItem{
+        public void pinturaSeleccionada(Paint paintSeleccionada);
     }
 }

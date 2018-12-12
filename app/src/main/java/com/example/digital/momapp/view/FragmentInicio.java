@@ -1,6 +1,7 @@
 package com.example.digital.momapp.view;
 
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -26,14 +27,15 @@ import java.util.List;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class FragmentInicio extends Fragment {
+public class FragmentInicio extends Fragment implements AdapterPaints.ListenerAdapterItem {
 
-
+    public static final String ID_PAINT= "idPaint";
     private TextView logout;
     private AdapterPaints adapterPaints;
     private List<Paint> listPinturas;
     private List<Paint> listPinturasResultado;
     private RecyclerView recyclerViewPinturas;
+    private ListenerFragmentInicio listenerFragmentInicio;
 
 
     @Override
@@ -54,9 +56,9 @@ public class FragmentInicio extends Fragment {
 
             }
         });
-       // recyclerViewPinturas = view.findViewById(R.id.recyclerview_paints);
-        //this.adapterPaints= new AdapterPaints();
-      //  crearLista();
+        recyclerViewPinturas = view.findViewById(R.id.recyclerview_paints);
+        this.adapterPaints= new AdapterPaints(this,listPinturas);
+        crearLista();
 
 
 
@@ -71,7 +73,7 @@ public class FragmentInicio extends Fragment {
             paintController.getPaints(new ResultListener<List<Paint>>() {
                 @Override
                 public void finish(List<Paint> result) {
-                    recyclerViewPinturas.setLayoutManager( new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL,false));
+                    recyclerViewPinturas.setLayoutManager( new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL,false));
                     recyclerViewPinturas.setAdapter(adapterPaints);
                     adapterPaints.setResult(result);
 
@@ -83,6 +85,25 @@ public class FragmentInicio extends Fragment {
                 }
             });
             return listPinturas;
+        }
+
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        listenerFragmentInicio = (ListenerFragmentInicio) context;
+    }
+
+    @Override
+    public void pinturaSeleccionada(Paint paintSeleccionada) {
+        listenerFragmentInicio.informarPaintSeleccionada(paintSeleccionada);
+    }
+
+
+
+
+
+    public interface ListenerFragmentInicio{
+          public void informarPaintSeleccionada(Paint paintSeleccionada);
         }
 
 

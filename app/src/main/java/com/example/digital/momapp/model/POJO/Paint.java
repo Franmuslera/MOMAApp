@@ -13,6 +13,16 @@ public class Paint implements Serializable {
     @SerializedName("artistId")
     private Integer artistId;
 
+    private String url_imagen="";
+
+    public String getUrl_imagen() {
+        return url_imagen;
+    }
+
+    public void setUrl_imagen(String url_imagen) {
+        this.url_imagen = url_imagen;
+    }
+
     public Paint() {
 
     }
@@ -21,23 +31,17 @@ public class Paint implements Serializable {
         return nombre;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
+
 
     public String getImagen() {
         return imagen;
     }
 
-    public void setImagen(String imagen) {
-        this.imagen = imagen;
-    }
+
 
     public Integer getArtistId() {
         return artistId;
     }
 
-    public void setArtistId(Integer artistId) {
-        this.artistId = artistId;
-    }
+
 }
