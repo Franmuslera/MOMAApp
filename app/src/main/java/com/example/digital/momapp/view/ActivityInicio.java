@@ -12,7 +12,7 @@ import com.example.digital.momapp.model.POJO.Paint;
 import java.io.Serializable;
 import java.util.List;
 
-public class ActivityInicio extends AppCompatActivity implements FragmentInicio.ListenerFragmentInicio,FragmentInicio.ListenerClickFoto {
+public class ActivityInicio extends AppCompatActivity implements FragmentInicio.ListenerClickPaint,FragmentInicio.ListenerClickFoto {
     private String FRAGMENT_INICIO= "FragmentInicio";
     private String FRAGMENT_DETALLE= "FragmentDetalle32";
 
@@ -31,17 +31,7 @@ public class ActivityInicio extends AppCompatActivity implements FragmentInicio.
         fragmentTransaction.commit();
     }
 
-    @Override
-    public void informarPaintSeleccionada(Paint paint) {
-        FragmentDetallePaint fragmentDetallePaint= new FragmentDetallePaint();
-        Bundle bundle = new Bundle();
-        bundle.putInt(FragmentDetallePaint.CLAVE_PAINT,paint.getArtistId());
-        fragmentDetallePaint.setArguments(bundle);
-        pegarFragment(fragmentDetallePaint,FRAGMENT_DETALLE);
 
-
-
-    }
 
     @Override
     public void cambiarFragment() {
@@ -49,5 +39,15 @@ public class ActivityInicio extends AppCompatActivity implements FragmentInicio.
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.replace(R.id.contenedor_fragment_Inicio,new FragmentFoto());
         fragmentTransaction.commit();
+    }
+
+    @Override
+    public void irADetalle(List<Paint> listaPaints, Integer positionPaint) {
+        FragmentDetallePaint fragmentDetallePaint= new FragmentDetallePaint();
+        Bundle bundle = new Bundle();
+        bundle.putSerializable(FragmentDetallePaint.CLAVE_PAINT, (Serializable) listaPaints);
+        bundle.putInt(FragmentDetallePaint.CLAVE_POSITION, positionPaint);
+        fragmentDetallePaint.setArguments(bundle);
+        pegarFragment(fragmentDetallePaint,FRAGMENT_DETALLE);
     }
 }

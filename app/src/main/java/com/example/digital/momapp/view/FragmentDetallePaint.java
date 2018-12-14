@@ -23,6 +23,7 @@ public class FragmentDetallePaint extends Fragment {
 
     public static final String CLAVE_PAINT= "Paint";
     public static final String ID_PAINT= "idPaint";
+    public static final String CLAVE_POSITION = "Posicion";
 
 
 
@@ -49,7 +50,7 @@ public class FragmentDetallePaint extends Fragment {
         Bundle bundle=getArguments();
         Integer idArtistPaint = bundle.getInt(CLAVE_PAINT);
 
-       //textViewNombrePintura.setText(paint.getNombre());
+      // textViewNombrePintura.setText(paint.getNombre());
         cargarArtista(idArtistPaint);
 
 

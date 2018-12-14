@@ -46,6 +46,7 @@ public class FragmentInicio extends Fragment implements AdapterPaints.ListenerAd
     private RecyclerView recyclerViewPinturas;
     private ListenerFragmentInicio listenerFragmentInicio;
     private ListenerClickFoto listenerClickFoto;
+    private ListenerClickPaint listenerClickPaint;
 
 
     @Override
@@ -156,15 +157,14 @@ public class FragmentInicio extends Fragment implements AdapterPaints.ListenerAd
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        listenerFragmentInicio = (ListenerFragmentInicio) context;
+       listenerClickPaint = (ListenerClickPaint) context;
         listenerClickFoto = (ListenerClickFoto)context;
     }
 
     @Override
-    public void pinturaSeleccionada(Paint paintSeleccionada) {
-        listenerFragmentInicio.informarPaintSeleccionada(paintSeleccionada);
+    public void pinturaSeleccionada(List<Paint> listaPaints, Integer positionPaint) {
+        listenerClickPaint.irADetalle(listaPaints,positionPaint);
     }
-
 
 
 
@@ -176,6 +176,9 @@ public class FragmentInicio extends Fragment implements AdapterPaints.ListenerAd
         public interface ListenerClickFoto{
         public void cambiarFragment();
 
+    }
+    public interface ListenerClickPaint{
+        public void irADetalle(List<Paint> listaPaints, Integer positionPaint);
     }
 
 
