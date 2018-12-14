@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\DH\\Desktop\\moma\\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ko\\values-ko.xml",
+            "outputFile": "C:\\Users\\DH\\Desktop\\MOMAApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ko\\values-ko.xml",
             "map": [
                 {
                     "source": "C:\\Users\\DH\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-login-4.38.1.aar\\347622fc345ba42b8adc75bd1cd04f54\\res\\values-ko\\values-ko.xml",

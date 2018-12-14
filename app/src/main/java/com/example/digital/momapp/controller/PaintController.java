@@ -10,7 +10,7 @@ public class PaintController {
 
     public void getPaints(final ResultListener<List<Paint>> listenerView){
         DAOPaint daoPaint = new DAOPaint();
-        daoPaint.getPaintsAsincronico(new ResultListener<List<Paint>>() {
+        daoPaint.getPaints(new ResultListener<List<Paint>>() {
             @Override
             public void finish(List<Paint> result) {
                 listenerView.finish(result);

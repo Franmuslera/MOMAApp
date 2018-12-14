@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\DH\\Desktop\\moma\\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-et\\values-et.xml",
+            "outputFile": "C:\\Users\\DH\\Desktop\\MOMAApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-et\\values-et.xml",
             "map": [
                 {
                     "source": "C:\\Users\\DH\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\e26bb65ea3524369f0b25d4d5a6b8b9a\\res\\values-et\\values-et.xml",

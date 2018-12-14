@@ -22,9 +22,9 @@ public class AdapterPaints extends RecyclerView.Adapter{
     private List<Paint> listaPinturas;
     private ListenerAdapterItem listenerAdapterItem;
 
-    public AdapterPaints(ListenerAdapterItem listener,List<Paint> lista){
+    public AdapterPaints(ListenerAdapterItem listener){
         this.listenerAdapterItem = listener;
-        this.listaPinturas= lista;
+        this.listaPinturas= new ArrayList<>();
     }
     @NonNull
     @Override
@@ -85,6 +85,10 @@ public class AdapterPaints extends RecyclerView.Adapter{
     }
     public void setResult(List<Paint> pinturas){
         this.listaPinturas = pinturas;
+        notifyDataSetChanged();
+    }
+    public void addPaint(Paint paint){
+        listaPinturas.add(paint);
         notifyDataSetChanged();
     }
     public interface ListenerAdapterItem{

@@ -12,13 +12,20 @@ import com.google.firebase.database.ValueEventListener;
 
 public class DAOArtist {
 
-    public void getArtistById(Integer artistId, final ResultListener<Artist> listenerController){
+    public void getArtistById(final Integer artistId, final ResultListener<Artist> listenerController){
         FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
         DatabaseReference reference = firebaseDatabase.getReference();
         reference.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                  for (DataSnapshot data : dataSnapshot.child("artist").getChildren()){
+                      Artist artist = data.getValue(Artist.class);
 
+
+                      if(artist.getIdArtista().equals(artistId.toString())){
+                          listenerController.finish(artist);
+                      }
+                  }
             }
 
             @Override

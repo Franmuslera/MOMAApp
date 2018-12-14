@@ -12,7 +12,7 @@ import com.example.digital.momapp.model.POJO.Paint;
 import java.io.Serializable;
 import java.util.List;
 
-public class ActivityInicio extends AppCompatActivity implements FragmentInicio.ListenerFragmentInicio {
+public class ActivityInicio extends AppCompatActivity implements FragmentInicio.ListenerFragmentInicio,FragmentInicio.ListenerClickFoto {
     private String FRAGMENT_INICIO= "FragmentInicio";
     private String FRAGMENT_DETALLE= "FragmentDetalle32";
 
@@ -36,11 +36,18 @@ public class ActivityInicio extends AppCompatActivity implements FragmentInicio.
         FragmentDetallePaint fragmentDetallePaint= new FragmentDetallePaint();
         Bundle bundle = new Bundle();
         bundle.putInt(FragmentDetallePaint.CLAVE_PAINT,paint.getArtistId());
-        bundle.putSerializable(FragmentDetallePaint.ID_PAINT,(Serializable) paint);
         fragmentDetallePaint.setArguments(bundle);
         pegarFragment(fragmentDetallePaint,FRAGMENT_DETALLE);
 
 
 
+    }
+
+    @Override
+    public void cambiarFragment() {
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.replace(R.id.contenedor_fragment_Inicio,new FragmentFoto());
+        fragmentTransaction.commit();
     }
 }

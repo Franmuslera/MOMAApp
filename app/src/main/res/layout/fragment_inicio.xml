@@ -10,35 +10,50 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:src="@drawable/moma"
-            android:textSize="30dp"
             android:layout_margin="10dp"
+            android:src="@drawable/moma"
+            android:textSize="30dp" />
 
-
-
-            />
-        <android.support.v7.widget.RecyclerView
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="FOTO"
+                android:textColor="@color/blanco"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:id="@+id/button_foto"/>
+
+            <TextView
+                android:id="@+id/txtview_logout_from_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:gravity="end"
+                android:text="LOGOUT"
+                android:textColor="@color/blanco"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
             android:id="@+id/recyclerview_paints"
-            ></android.support.v7.widget.RecyclerView>
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"></android.support.v7.widget.RecyclerView>
 
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/txtview_logout_from_home"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="end|bottom"
-        android:gravity="end"
-        android:text="LOGOUT"
-        android:textColor="@color/blanco"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:background="#000"/>
+
 
 </FrameLayout>

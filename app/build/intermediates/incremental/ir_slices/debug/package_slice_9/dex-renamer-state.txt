@@ -1,0 +1,4 @@
+#Fri Dec 14 17:00:08 ART 2018
+base.0=C\:\\Users\\DH\\Desktop\\MOMAApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\9
+path.0=classes.dex
+renamed.0=classes.dex

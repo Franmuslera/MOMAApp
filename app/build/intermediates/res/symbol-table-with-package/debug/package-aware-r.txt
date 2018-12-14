@@ -935,6 +935,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable placeholder
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -975,10 +976,13 @@ id automatic
 id barrier
 id beginning
 id blocking
+id botonSacarFoto
+id botonSubir
 id bottom
 id box_count
 id button
 id buttonPanel
+id button_foto
 id button_login_facebook
 id cancel_action
 id cancel_button
@@ -1048,6 +1052,7 @@ id ifRoom
 id image
 id imagen_detalle_paint
 id imageview_pintura
+id imageview_principal
 id influencia_artista_paint
 id info
 id inline
@@ -1232,6 +1237,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout fragment_detalle_paint
+layout fragment_foto
 layout fragment_inicio
 layout fragment_login
 layout messenger_button_send_blue_large
@@ -1825,3 +1831,4 @@ styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable com_facebook_like_view com_facebook_auxiliary_view_position com_facebook_foreground_color com_facebook_horizontal_alignment com_facebook_object_id com_facebook_object_type com_facebook_style
 styleable com_facebook_login_view com_facebook_confirm_logout com_facebook_login_text com_facebook_logout_text com_facebook_tooltip_mode
 styleable com_facebook_profile_picture_view com_facebook_is_cropped com_facebook_preset_size
+xml filepaths

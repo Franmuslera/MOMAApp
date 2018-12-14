@@ -47,10 +47,9 @@ public class FragmentDetallePaint extends Fragment {
         textViewInfluencia=view.findViewById(R.id.influencia_artista_paint);
 
         Bundle bundle=getArguments();
-        paint= (Paint)bundle.getSerializable(ID_PAINT);
-        Integer idArtistPaint = (Integer) bundle.getInt(CLAVE_PAINT);
+        Integer idArtistPaint = bundle.getInt(CLAVE_PAINT);
 
-        textViewNombrePintura.setText(paint.getNombre());
+       //textViewNombrePintura.setText(paint.getNombre());
         cargarArtista(idArtistPaint);
 
 

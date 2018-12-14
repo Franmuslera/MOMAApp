@@ -1,12 +1,13 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:2:1-45:12
+ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:2:1-47:12
 MERGED from [com.android.support:design:27.1.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\0be8f4ec462bcb9fb3db2ccfa334aa1c\AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.android:facebook-android-sdk:4.38.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.38.1.aar\2c0da060b25bed87bef9e14fed15d7b9\AndroidManifest.xml:21:1-31:12
 MERGED from [com.facebook.android:facebook-login:4.38.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\facebook-login-4.38.1.aar\347622fc345ba42b8adc75bd1cd04f54\AndroidManifest.xml:21:1-31:12
+MERGED from [com.github.jkwiecien:EasyImage:2.0.2] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\EasyImage-2.0.2.aar\88e458f3a7ed8f281eac401b0f860345\AndroidManifest.xml:2:1-23:12
 MERGED from [com.facebook.android:facebook-share:4.38.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\facebook-share-4.38.1.aar\d980b35053ba4a913397d5ae87bac7dd\AndroidManifest.xml:21:1-31:12
 MERGED from [com.facebook.android:facebook-common:4.38.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\fc661d558be1e066172bc70b39ab06df\AndroidManifest.xml:21:1-37:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\e1e7a854ab6fbbb253c1f6ee991b2664\AndroidManifest.xml:17:1-22:12
@@ -50,30 +51,31 @@ MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\DH\.gr
 MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\be24d478b6529c1d2441b2bf5e948fa3\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\84983ff5cb310d18ce1232ee4bf72599\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e26bb65ea3524369f0b25d4d5a6b8b9a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton.timber:timber:4.4.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\timber-4.4.0.aar\3f7e706b9121de75c202a30b830212cf\AndroidManifest.xml:2:1-10:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\75c6318d0bbd3bbbca85fc5c51e53520\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\c4a468585881e6cbaf76f1f600028fa1\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\87f07afb6b8c46c57b0d25e868b6f066\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.3.aar\88e926a4a803c1da74e99336edc8d212\AndroidManifest.xml:2:1-9:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\db4f80745d662ba5ed13f5ae904669b5\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:2:1-47:12
 	package
-		ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:3:5-41
-		INJECTED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:2:1-45:12
-		INJECTED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:2:1-47:12
+		INJECTED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:2:1-45:12
-		INJECTED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:2:1-47:12
+		INJECTED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:5:5-66
+ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:5:5-66
 MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\firebase-database-16.0.4.aar\6436aef09c46dccaf89e986015ac4d5b\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\firebase-database-16.0.4.aar\6436aef09c46dccaf89e986015ac4d5b\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\a27dee149a34784891b5909afb9c3b69\AndroidManifest.xml:22:5-67
@@ -87,9 +89,9 @@ MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\DH\.gr
 MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\77e79247774619158be4cff8be0955f1\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\77e79247774619158be4cff8be0955f1\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:6:5-78
+ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:6:5-78
 MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\firebase-database-16.0.4.aar\6436aef09c46dccaf89e986015ac4d5b\AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\firebase-database-16.0.4.aar\6436aef09c46dccaf89e986015ac4d5b\AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\a27dee149a34784891b5909afb9c3b69\AndroidManifest.xml:23:5-79
@@ -103,13 +105,23 @@ MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\DH\.gr
 MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\77e79247774619158be4cff8be0955f1\AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\77e79247774619158be4cff8be0955f1\AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:6:22-76
+		ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:8:5-64
+	android:name
+		ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:8:22-62
 application
-ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:8:5-43:19
+ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:10:5-45:19
 MERGED from [com.facebook.android:facebook-android-sdk:4.38.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.38.1.aar\2c0da060b25bed87bef9e14fed15d7b9\AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-android-sdk:4.38.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.38.1.aar\2c0da060b25bed87bef9e14fed15d7b9\AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-login:4.38.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\facebook-login-4.38.1.aar\347622fc345ba42b8adc75bd1cd04f54\AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-login:4.38.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\facebook-login-4.38.1.aar\347622fc345ba42b8adc75bd1cd04f54\AndroidManifest.xml:28:5-29:19
+MERGED from [com.github.jkwiecien:EasyImage:2.0.2] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\EasyImage-2.0.2.aar\88e458f3a7ed8f281eac401b0f860345\AndroidManifest.xml:11:5-21:19
+MERGED from [com.github.jkwiecien:EasyImage:2.0.2] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\EasyImage-2.0.2.aar\88e458f3a7ed8f281eac401b0f860345\AndroidManifest.xml:11:5-21:19
 MERGED from [com.facebook.android:facebook-share:4.38.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\facebook-share-4.38.1.aar\d980b35053ba4a913397d5ae87bac7dd\AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-share:4.38.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\facebook-share-4.38.1.aar\d980b35053ba4a913397d5ae87bac7dd\AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-common:4.38.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\fc661d558be1e066172bc70b39ab06df\AndroidManifest.xml:28:5-35:19
@@ -162,92 +174,96 @@ MERGED from [com.facebook.android:facebook-core:4.38.1] C:\Users\DH\.gradle\cach
 MERGED from [com.facebook.android:facebook-core:4.38.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\049e183eaec8e5b77d1fb3f722699013\AndroidManifest.xml:28:5-51:19
 MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\7689b36380e82187e9c57a18a03f4be8\AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\7689b36380e82187e9c57a18a03f4be8\AndroidManifest.xml:9:5-20
+MERGED from [com.jakewharton.timber:timber:4.4.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\timber-4.4.0.aar\3f7e706b9121de75c202a30b830212cf\AndroidManifest.xml:8:5-20
+MERGED from [com.jakewharton.timber:timber:4.4.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\timber-4.4.0.aar\3f7e706b9121de75c202a30b830212cf\AndroidManifest.xml:8:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.3.aar\88e926a4a803c1da74e99336edc8d212\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.3.aar\88e926a4a803c1da74e99336edc8d212\AndroidManifest.xml:7:5-20
 	android:supportsRtl
-		ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:13:9-41
 	android:roundIcon
-		ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:14:9-54
 	android:icon
-		ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:12:9-43
 	android:allowBackup
-		ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:14:9-40
+		ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:16:9-40
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:15:9-17:55
+ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:17:9-19:55
 	android:value
-		ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:17:13-52
+		ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:19:13-52
 	android:name
-		ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:16:13-58
+		ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:18:13-58
 activity#com.facebook.FacebookActivity
-ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:19:9-22:48
+ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:21:9-24:48
 MERGED from [com.facebook.android:facebook-common:4.38.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\fc661d558be1e066172bc70b39ab06df\AndroidManifest.xml:29:9-32:66
 MERGED from [com.facebook.android:facebook-common:4.38.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\fc661d558be1e066172bc70b39ab06df\AndroidManifest.xml:29:9-32:66
 	android:label
-		ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:22:13-45
+		ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:24:13-45
 	android:configChanges
-		ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:21:13-96
+		ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:23:13-96
 	android:theme
 		ADDED from [com.facebook.android:facebook-common:4.38.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\fc661d558be1e066172bc70b39ab06df\AndroidManifest.xml:32:13-63
 	android:name
-		ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:20:13-57
+		ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:22:13-57
 activity#com.facebook.CustomTabActivity
-ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:23:9-34:20
+ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:25:9-36:20
 MERGED from [com.facebook.android:facebook-common:4.38.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\fc661d558be1e066172bc70b39ab06df\AndroidManifest.xml:34:9-67
 MERGED from [com.facebook.android:facebook-common:4.38.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\fc661d558be1e066172bc70b39ab06df\AndroidManifest.xml:34:9-67
 	android:exported
-		ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:25:13-36
+		ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:27:13-36
 	android:name
-		ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:24:13-58
+		ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:26:13-58
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/fb_login_protocol_scheme
-ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:26:13-33:29
+ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:28:13-35:29
 action#android.intent.action.VIEW
-ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:27:17-69
+ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:29:17-69
 	android:name
-		ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:27:25-66
+		ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:29:25-66
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:29:17-76
+ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:31:17-76
 	android:name
-		ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:29:27-73
+		ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:31:27-73
 category#android.intent.category.BROWSABLE
-ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:30:17-78
+ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:32:17-78
 	android:name
-		ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:30:27-75
+		ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:32:27-75
 data
-ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:32:17-75
+ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:34:17-75
 	android:scheme
-		ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:32:23-72
+		ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:34:23-72
 activity#com.example.digital.momapp.view.LoginActivity
-ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:35:9-41:20
+ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:37:9-43:20
 	android:name
-		ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:35:19-53
+		ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:37:19-53
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:36:13-40:29
+ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:38:13-42:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:37:17-69
+ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:39:17-69
 	android:name
-		ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:37:25-66
+		ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:39:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:39:17-77
+ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:41:17-77
 	android:name
-		ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:39:27-74
+		ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:41:27-74
 activity#com.example.digital.momapp.view.ActivityInicio
-ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:42:9-66
+ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:44:9-66
 	android:name
-		ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml:42:19-54
+		ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml:44:19-54
 uses-sdk
-INJECTED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:design:27.1.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\0be8f4ec462bcb9fb3db2ccfa334aa1c\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:27.1.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\0be8f4ec462bcb9fb3db2ccfa334aa1c\AndroidManifest.xml:20:5-44
 MERGED from [com.facebook.android:facebook-android-sdk:4.38.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.38.1.aar\2c0da060b25bed87bef9e14fed15d7b9\AndroidManifest.xml:24:5-26:41
 MERGED from [com.facebook.android:facebook-android-sdk:4.38.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.38.1.aar\2c0da060b25bed87bef9e14fed15d7b9\AndroidManifest.xml:24:5-26:41
 MERGED from [com.facebook.android:facebook-login:4.38.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\facebook-login-4.38.1.aar\347622fc345ba42b8adc75bd1cd04f54\AndroidManifest.xml:24:5-26:41
 MERGED from [com.facebook.android:facebook-login:4.38.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\facebook-login-4.38.1.aar\347622fc345ba42b8adc75bd1cd04f54\AndroidManifest.xml:24:5-26:41
+MERGED from [com.github.jkwiecien:EasyImage:2.0.2] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\EasyImage-2.0.2.aar\88e458f3a7ed8f281eac401b0f860345\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.jkwiecien:EasyImage:2.0.2] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\EasyImage-2.0.2.aar\88e458f3a7ed8f281eac401b0f860345\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.android:facebook-share:4.38.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\facebook-share-4.38.1.aar\d980b35053ba4a913397d5ae87bac7dd\AndroidManifest.xml:24:5-26:41
 MERGED from [com.facebook.android:facebook-share:4.38.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\facebook-share-4.38.1.aar\d980b35053ba4a913397d5ae87bac7dd\AndroidManifest.xml:24:5-26:41
 MERGED from [com.facebook.android:facebook-common:4.38.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\fc661d558be1e066172bc70b39ab06df\AndroidManifest.xml:24:5-26:41
@@ -334,6 +350,8 @@ MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\DH\.gradle\
 MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\84983ff5cb310d18ce1232ee4bf72599\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e26bb65ea3524369f0b25d4d5a6b8b9a\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e26bb65ea3524369f0b25d4d5a6b8b9a\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.timber:timber:4.4.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\timber-4.4.0.aar\3f7e706b9121de75c202a30b830212cf\AndroidManifest.xml:6:5-43
+MERGED from [com.jakewharton.timber:timber:4.4.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\timber-4.4.0.aar\3f7e706b9121de75c202a30b830212cf\AndroidManifest.xml:6:5-43
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\75c6318d0bbd3bbbca85fc5c51e53520\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\75c6318d0bbd3bbbca85fc5c51e53520\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\c4a468585881e6cbaf76f1f600028fa1\AndroidManifest.xml:20:5-44
@@ -344,16 +362,32 @@ MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.3.aar\88e926a4a803c1da74e99336edc8d212\AndroidManifest.xml:5:5-44
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\db4f80745d662ba5ed13f5ae904669b5\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\db4f80745d662ba5ed13f5ae904669b5\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\DH\Desktop\moma\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11-20181212T165303Z-001\MOMAApp-09381c4486a3a3bb78194e5dc3f8b820e0067b11\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DH\Desktop\MOMAApp\app\src\main\AndroidManifest.xml
+provider#android.support.v4.content.FileProvider
+ADDED from [com.github.jkwiecien:EasyImage:2.0.2] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\EasyImage-2.0.2.aar\88e458f3a7ed8f281eac401b0f860345\AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [com.github.jkwiecien:EasyImage:2.0.2] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\EasyImage-2.0.2.aar\88e458f3a7ed8f281eac401b0f860345\AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [com.github.jkwiecien:EasyImage:2.0.2] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\EasyImage-2.0.2.aar\88e458f3a7ed8f281eac401b0f860345\AndroidManifest.xml:14:13-80
+	android:exported
+		ADDED from [com.github.jkwiecien:EasyImage:2.0.2] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\EasyImage-2.0.2.aar\88e458f3a7ed8f281eac401b0f860345\AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [com.github.jkwiecien:EasyImage:2.0.2] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\EasyImage-2.0.2.aar\88e458f3a7ed8f281eac401b0f860345\AndroidManifest.xml:13:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.github.jkwiecien:EasyImage:2.0.2] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\EasyImage-2.0.2.aar\88e458f3a7ed8f281eac401b0f860345\AndroidManifest.xml:17:13-19:53
+	android:resource
+		ADDED from [com.github.jkwiecien:EasyImage:2.0.2] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\EasyImage-2.0.2.aar\88e458f3a7ed8f281eac401b0f860345\AndroidManifest.xml:19:17-50
+	android:name
+		ADDED from [com.github.jkwiecien:EasyImage:2.0.2] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\EasyImage-2.0.2.aar\88e458f3a7ed8f281eac401b0f860345\AndroidManifest.xml:18:17-67
 activity#com.facebook.CustomTabMainActivity
 ADDED from [com.facebook.android:facebook-common:4.38.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\fc661d558be1e066172bc70b39ab06df\AndroidManifest.xml:33:9-71
 	android:name

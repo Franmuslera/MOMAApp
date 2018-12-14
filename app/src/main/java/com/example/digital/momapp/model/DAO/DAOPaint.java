@@ -26,7 +26,7 @@ public class DAOPaint {
 
         retrofit = builder.client(httpClient.build()).build();
     }
-    public void getPaintsAsincronico(final ResultListener<List<Paint>> listenerController){
+    public void getPaints(final ResultListener<List<Paint>> listenerController){
         ServicePaints servicePaints = retrofit.create(ServicePaints.class);
         Call<PaintContainer> call = servicePaints.getPaints();
         call.enqueue(new Callback<PaintContainer>() {
