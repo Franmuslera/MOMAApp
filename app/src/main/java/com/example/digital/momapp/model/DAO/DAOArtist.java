@@ -12,26 +12,38 @@ import com.google.firebase.database.ValueEventListener;
 
 public class DAOArtist {
 
+    private DatabaseReference mDatabase;
+
+
+    public DAOArtist() {
+        mDatabase = FirebaseDatabase.getInstance().getReference();
+
+    }
+
+
     public void getArtistById(final Integer artistId, final ResultListener<Artist> listenerController){
-        FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
-        DatabaseReference reference = firebaseDatabase.getReference();
-        reference.addListenerForSingleValueEvent(new ValueEventListener() {
+
+        mDatabase.child("artists").addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                  for (DataSnapshot data : dataSnapshot.child("artist").getChildren()){
-                      Artist artist = data.getValue(Artist.class);
+                for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
+                    Artist artist = snapshot.getValue(Artist.class);
+                    if (artist.getArtistId().equals(artistId.toString())) {
 
+                        listenerController.finish(artist);
+                    }
+                }
 
-                      if(artist.getIdArtista().equals(artistId.toString())){
-                          listenerController.finish(artist);
-                      }
-                  }
             }
 
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
 
+                databaseError.toException();
+
             }
         });
     }
+
+
 }

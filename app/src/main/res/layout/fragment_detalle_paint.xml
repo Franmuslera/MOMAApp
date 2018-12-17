@@ -14,6 +14,7 @@
         android:layout_marginTop="10dp"
         android:textSize="30dp"
         android:textStyle="bold"
+        android:textColor="@color/blanco"
         android:id="@+id/nombre_detalle_paint"/>
 
     <ImageView
@@ -23,25 +24,33 @@
         android:layout_gravity="center"/>
     <TextView
         android:id="@+id/nombre_artista_paint"
+        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/blanco"
         android:textSize="20dp"/>
     <TextView
         android:id="@+id/nacionalidad_artista_paint"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/blanco"
+        android:gravity="center"
         android:textSize="20dp"
         android:layout_marginTop="10dp"/>
     <TextView
         android:id="@+id/influencia_artista_paint"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/blanco"
         android:textSize="20dp"
         android:layout_marginTop="10dp"/>
     <TextView
         android:id="@+id/id_artista_paint"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/blanco"
+        android:gravity="center"
         android:textSize="20dp"
         android:layout_marginTop="10dp"/>
 
