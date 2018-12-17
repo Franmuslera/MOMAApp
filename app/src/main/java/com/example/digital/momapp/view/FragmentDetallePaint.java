@@ -6,8 +6,10 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.example.digital.momapp.R;
 import com.example.digital.momapp.controller.ArtistController;
 import com.example.digital.momapp.model.POJO.Artist;
@@ -22,16 +24,15 @@ import java.util.List;
 public class FragmentDetallePaint extends Fragment {
 
     public static final String CLAVE_PAINT= "Paint";
-    public static final String ID_PAINT= "idPaint";
-    public static final String CLAVE_POSITION = "Posicion";
 
 
-
+    private ImageView imageViewPaint;
     private TextView textViewNombrePintura;
     private TextView textViewNacionalidad;
     private TextView textViewInfluencia;
     private TextView textViewNombreArtista;
-    private Paint paint;
+    private TextView textViewIdArtista;
+
 
 
 
@@ -42,16 +43,19 @@ public class FragmentDetallePaint extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_detalle_paint, container, false);
 
+        imageViewPaint=view.findViewById(R.id.imagen_detalle_paint);
         textViewNombrePintura=view.findViewById(R.id.nombre_detalle_paint);
         textViewNombreArtista=view.findViewById(R.id.nombre_artista_paint);
         textViewNacionalidad=view.findViewById(R.id.nacionalidad_artista_paint);
         textViewInfluencia=view.findViewById(R.id.influencia_artista_paint);
+        textViewIdArtista=view.findViewById(R.id.id_artista_paint);
 
         Bundle bundle=getArguments();
-        Integer idArtistPaint = bundle.getInt(CLAVE_PAINT);
+        Paint paint = (Paint) bundle.getSerializable(CLAVE_PAINT);
+        textViewNombrePintura.setText(paint.getNombre());
+        Glide.with(getContext()).load(paint.getUrl_imagen()).into(imageViewPaint);
+        cargarArtista(paint.getArtistId());
 
-      // textViewNombrePintura.setText(paint.getNombre());
-        cargarArtista(idArtistPaint);
 
 
 
@@ -62,9 +66,10 @@ public class FragmentDetallePaint extends Fragment {
         artistController.getArtist(idArtista, new ResultListener<Artist>() {
             @Override
             public void finish(Artist result) {
-                textViewNombreArtista.setText(result.getNombreArtista());
-                textViewNacionalidad.setText(result.getNacionalidad());
-                textViewInfluencia.setText(result.getNacionalidad());
+                textViewNombreArtista.setText("NombreArtista: "+result.getName());
+                textViewNacionalidad.setText("Nacionalidad: "+result.getNationality());
+                textViewInfluencia.setText("Influencia: "+result.getInfluenced_by());
+                textViewIdArtista.setText("ID Artista: "+result.getArtistId());
             }
         });
     }

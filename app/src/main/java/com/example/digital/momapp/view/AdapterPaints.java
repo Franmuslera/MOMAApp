@@ -65,7 +65,7 @@ public class AdapterPaints extends RecyclerView.Adapter{
                 @Override
                 public void onClick(View view) {
                     Paint paint = listaPinturas.get(getAdapterPosition());
-                    listenerAdapterItem.pinturaSeleccionada(listaPinturas,getAdapterPosition());
+                   listenerAdapterItem.pinturaSeleccionada(paint);
                 }
             });
 
@@ -92,6 +92,6 @@ public class AdapterPaints extends RecyclerView.Adapter{
         notifyDataSetChanged();
     }
     public interface ListenerAdapterItem{
-        public void pinturaSeleccionada(List<Paint> listaPaints, Integer positionPaint);
+        public void pinturaSeleccionada(Paint paint);
     }
 }

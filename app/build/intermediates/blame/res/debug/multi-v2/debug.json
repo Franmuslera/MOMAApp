@@ -655,6 +655,21 @@
             ]
         },
         {
+            "outputFile": "C:\\Users\\DH\\Desktop\\MOMAApp\\app\\build\\intermediates\\res\\merged\\debug\\values-port_values-port.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DH\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e1e7a854ab6fbbb253c1f6ee991b2664\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "C:\\Users\\DH\\Desktop\\MOMAApp\\app\\build\\intermediates\\res\\merged\\debug\\values-fi_values-fi.arsc.flat",
             "map": [
                 {
@@ -740,21 +755,6 @@
                         "startOffsets": "1850,2009,2140,2286,2398,2482,2569,2647,2737,2835,2953,3070,3167,3264,3377,3510,3592,3672,3846,3941,4054,4168,4286",
                         "endColumns": "158,130,145,111,83,86,77,89,97,117,116,96,96,112,132,81,79,173,94,112,113,117,135",
                         "endOffsets": "2004,2135,2281,2393,2477,2564,2642,2732,2830,2948,3065,3162,3259,3372,3505,3587,3667,3841,3936,4049,4163,4281,4417"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\DH\\Desktop\\MOMAApp\\app\\build\\intermediates\\res\\merged\\debug\\values-port_values-port.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\DH\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e1e7a854ab6fbbb253c1f6ee991b2664\\res\\values-port\\values-port.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "55",
-                        "endOffsets": "106"
                     }
                 }
             ]
@@ -1445,6 +1445,22 @@
             ]
         },
         {
+            "outputFile": "C:\\Users\\DH\\Desktop\\MOMAApp\\app\\build\\intermediates\\res\\merged\\debug\\values-watch-v20_values-watch-v20.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DH\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e1e7a854ab6fbbb253c1f6ee991b2664\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "C:\\Users\\DH\\Desktop\\MOMAApp\\app\\build\\intermediates\\res\\merged\\debug\\values-am_values-am.arsc.flat",
             "map": [
                 {
@@ -1513,22 +1529,6 @@
                         "startOffsets": "4377",
                         "endColumns": "100",
                         "endOffsets": "4473"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\DH\\Desktop\\MOMAApp\\app\\build\\intermediates\\res\\merged\\debug\\values-watch-v20_values-watch-v20.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\DH\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e1e7a854ab6fbbb253c1f6ee991b2664\\res\\values-watch-v20\\values-watch-v20.xml",
-                    "from": {
-                        "startLines": "2,5,8",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,214,385",
-                        "endLines": "4,7,10",
-                        "endColumns": "12,12,12",
-                        "endOffsets": "209,380,553"
                     }
                 }
             ]
@@ -2357,6 +2357,22 @@
             ]
         },
         {
+            "outputFile": "C:\\Users\\DH\\Desktop\\MOMAApp\\app\\build\\intermediates\\res\\merged\\debug\\values-v25_values-v25.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DH\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e1e7a854ab6fbbb253c1f6ee991b2664\\res\\values-v25\\values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "C:\\Users\\DH\\Desktop\\MOMAApp\\app\\build\\intermediates\\res\\merged\\debug\\values-pt_values-pt.arsc.flat",
             "map": [
                 {
@@ -2408,22 +2424,6 @@
                         "startOffsets": "4525",
                         "endColumns": "100",
                         "endOffsets": "4621"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\DH\\Desktop\\MOMAApp\\app\\build\\intermediates\\res\\merged\\debug\\values-v25_values-v25.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\DH\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e1e7a854ab6fbbb253c1f6ee991b2664\\res\\values-v25\\values-v25.xml",
-                    "from": {
-                        "startLines": "2,3,4,6",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,126,209,308",
-                        "endLines": "2,3,5,7",
-                        "endColumns": "70,82,12,12",
-                        "endOffsets": "121,204,303,414"
                     }
                 }
             ]

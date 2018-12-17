@@ -2,31 +2,34 @@ package com.example.digital.momapp.model.POJO;
 
 public class Artist {
 
-    private Integer idArtista;
-    private String nombreArtista;
-    private String nacionalidad;
-    private String influenecedBy;
+    private String Influenced_by;
+    private String artistId;
+    private String name;
+    private String nationality;
 
-    public Artist(Integer idArtista, String nombreArtista, String nacionalidad, String influenecedBy) {
-        this.idArtista = idArtista;
-        this.nombreArtista = nombreArtista;
-        this.nacionalidad = nacionalidad;
-        this.influenecedBy = influenecedBy;
+    public Artist(String influenced_by, String artistId, String name, String nationality) {
+        Influenced_by = influenced_by;
+        this.artistId = artistId;
+        this.name = name;
+        this.nationality = nationality;
     }
 
-    public Integer getIdArtista() {
-        return idArtista;
+    public Artist() {
     }
 
-    public String getNombreArtista() {
-        return nombreArtista;
+    public String getInfluenced_by() {
+        return Influenced_by;
     }
 
-    public String getNacionalidad() {
-        return nacionalidad;
+    public String getArtistId() {
+        return artistId;
     }
 
-    public String getInfluenecedBy() {
-        return influenecedBy;
+    public String getName() {
+        return name;
+    }
+
+    public String getNationality() {
+        return nationality;
     }
 }

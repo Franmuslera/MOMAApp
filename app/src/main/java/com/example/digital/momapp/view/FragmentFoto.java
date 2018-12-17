@@ -67,10 +67,10 @@ public class FragmentFoto extends Fragment {
                 final StorageReference referenciaImagenes = referenciaRaiz.child("imagenes");
                 StorageReference referenciaUsuario = referenciaImagenes.child("imagenesDeUsuario");
 
-                final StorageReference referenciaImagenPug = referenciaUsuario.child(new Date().getTime()+".jpg");
+                final StorageReference referenciaImagen = referenciaUsuario.child(new Date().getTime()+".jpg");
 
                 byte[] bytesImagen = convertirImagenABytes(imageView);
-                UploadTask uploadTask = referenciaImagenPug.putBytes(bytesImagen);
+                UploadTask uploadTask = referenciaImagen.putBytes(bytesImagen);
                 uploadTask.addOnFailureListener(new OnFailureListener() {
                     @Override
                     public void onFailure(@NonNull Exception e) {

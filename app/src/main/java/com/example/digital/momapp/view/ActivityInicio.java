@@ -12,9 +12,9 @@ import com.example.digital.momapp.model.POJO.Paint;
 import java.io.Serializable;
 import java.util.List;
 
-public class ActivityInicio extends AppCompatActivity implements FragmentInicio.ListenerClickPaint,FragmentInicio.ListenerClickFoto {
+public class ActivityInicio extends AppCompatActivity implements FragmentInicio.ListenerFragmentInicio,FragmentInicio.ListenerClickFoto {
     private String FRAGMENT_INICIO= "FragmentInicio";
-    private String FRAGMENT_DETALLE= "FragmentDetalle32";
+    private String FRAGMENT_DETALLE= "FragmentDetalle";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,13 +41,27 @@ public class ActivityInicio extends AppCompatActivity implements FragmentInicio.
         fragmentTransaction.commit();
     }
 
+
     @Override
-    public void irADetalle(List<Paint> listaPaints, Integer positionPaint) {
-        FragmentDetallePaint fragmentDetallePaint= new FragmentDetallePaint();
+    public void informarPaintSeleccionada(Paint paintSeleccionada) {
+        FragmentDetallePaint fragmentDetallePaint = new FragmentDetallePaint();
         Bundle bundle = new Bundle();
-        bundle.putSerializable(FragmentDetallePaint.CLAVE_PAINT, (Serializable) listaPaints);
-        bundle.putInt(FragmentDetallePaint.CLAVE_POSITION, positionPaint);
+        bundle.putSerializable(FragmentDetallePaint.CLAVE_PAINT, paintSeleccionada);
         fragmentDetallePaint.setArguments(bundle);
-        pegarFragment(fragmentDetallePaint,FRAGMENT_DETALLE);
+        pegarFragment(fragmentDetallePaint, FRAGMENT_DETALLE);
+
+    }
+    @Override
+    public void onBackPressed() {
+
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentInicio fragmentInicio = (FragmentInicio) fragmentManager.findFragmentByTag(FRAGMENT_INICIO);
+
+        if (fragmentInicio != null && fragmentInicio.isVisible()) {
+            finishAndRemoveTask();
+        }else {
+            pegarFragment(new FragmentInicio(), FRAGMENT_INICIO);
+        }
+
     }
 }

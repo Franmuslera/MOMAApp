@@ -46,7 +46,7 @@ public class FragmentInicio extends Fragment implements AdapterPaints.ListenerAd
     private RecyclerView recyclerViewPinturas;
     private ListenerFragmentInicio listenerFragmentInicio;
     private ListenerClickFoto listenerClickFoto;
-    private ListenerClickPaint listenerClickPaint;
+
 
 
     @Override
@@ -91,30 +91,7 @@ public class FragmentInicio extends Fragment implements AdapterPaints.ListenerAd
     }
 
 
-    /*
-    private List<Paint> crearLista(){
 
-
-        PaintController paintController = new PaintController();
-            paintController.getPaints(new ResultListener<List<Paint>>() {
-                @Override
-                public void finish(List<Paint> result) {
-                    recyclerViewPinturas.setLayoutManager( new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL,false));
-                    recyclerViewPinturas.setAdapter(adapterPaints);
-                    for (Paint paint: result){
-                        llamarImagenPaint(paint);
-
-                    }
-
-                    adapterPaints.setResult(result);
-
-
-
-
-                }
-            });
-            return listPinturas;
-        }*/
 
 
     public void crearLista(){
@@ -157,16 +134,14 @@ public class FragmentInicio extends Fragment implements AdapterPaints.ListenerAd
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-       listenerClickPaint = (ListenerClickPaint) context;
+        listenerFragmentInicio=(ListenerFragmentInicio)context;
         listenerClickFoto = (ListenerClickFoto)context;
     }
 
     @Override
-    public void pinturaSeleccionada(List<Paint> listaPaints, Integer positionPaint) {
-        listenerClickPaint.irADetalle(listaPaints,positionPaint);
+    public void pinturaSeleccionada(Paint paint) {
+        listenerFragmentInicio.informarPaintSeleccionada(paint);
     }
-
-
 
 
     public interface ListenerFragmentInicio{
@@ -177,9 +152,7 @@ public class FragmentInicio extends Fragment implements AdapterPaints.ListenerAd
         public void cambiarFragment();
 
     }
-    public interface ListenerClickPaint{
-        public void irADetalle(List<Paint> listaPaints, Integer positionPaint);
-    }
+
 
 
 }
